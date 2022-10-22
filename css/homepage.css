@@ -1,0 +1,65 @@
+* {
+  background: #e5e5e5;
+}
+.b1_wrapper {
+  /* display: flex; */
+
+  /* width: 706px; */
+  /* height: 98px; */
+  margin-top: 80px;
+  /* margin-left: 607px; */
+  /* margin-right: 500px; */
+  margin-bottom: 0;
+}
+.banner_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Raleway;
+  font-weight: 1000;
+  font-size: 69px;
+  /* 120px  */
+  /* line-height: 105.08px;  */
+}
+.banner_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 69px;
+  margin-top: -15px;
+  color: #583be8;
+}
+.intro_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.48px;
+}
+.land_img1 {
+ background: transparent;
+    position: absolute;
+    width: 660px;
+    height: 400.5px;
+    left: 454px;
+    top: 355px;
+}
+.land_btn {
+  position: absolute;
+    width: 194px;
+    height: 56px;
+    left: 679px;
+    top: 328px;
+    z-index: 3;
+    font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 7px;
+   background-color: #583be8;
+   color: white;
+}
