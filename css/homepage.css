@@ -1,5 +1,14 @@
 * {
+ margin: 0;
+  padding: 0;
   background: #e5e5e5;
+}
+html{
+  min-height: 100vh;
+  overflow: hidden;
+}
+body{
+  min-height: 100vh;
 }
 .b1_wrapper {
   /* display: flex; */
@@ -31,6 +40,11 @@
   margin-top: -15px;
   color: #583be8;
 }
+.img_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .intro_text {
   display: flex;
   justify-content: center;
@@ -43,16 +57,22 @@
 .land_img1 {
  background: transparent;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 660px;
     height: 400.5px;
-    left: 454px;
+    /* left: 454px; */
     top: 355px;
 }
 .land_btn {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     width: 194px;
     height: 56px;
-    left: 679px;
+    /* left: 679px; */
     top: 328px;
     z-index: 3;
     font-family: Raleway;
